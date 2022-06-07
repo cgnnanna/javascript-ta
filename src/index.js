@@ -2,16 +2,16 @@
 function prime (num) {
   // code goes here
 
-  //creates a variable to store boolean values
+  //creates a variable to store boolean value
   let isPrime = true;
 
-  //checks for a positive integer
+  //checks if the argument is a positive integer
   if(num < 1){
     isPrime = false;
     return isPrime;
   }
 
-  // checks for integer 1
+  // checks if the argument is 1 since 1 is neither a prime nor composite number
   if(num === 1){
     isPrime = false;
     return isPrime;
